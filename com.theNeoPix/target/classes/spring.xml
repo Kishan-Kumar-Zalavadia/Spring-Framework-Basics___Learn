@@ -4,6 +4,8 @@
        xsi:schemaLocation = "http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="doctor" class="demo.Doctor"></bean>
+    <bean id="doctor" class="demo.Doctor">
+        <property name="qualification" value="MBBS"></property>
+    </bean>
     <bean id="nurse" class="demo.Nurse"></bean>
 </beans>
